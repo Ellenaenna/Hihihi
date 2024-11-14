@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Text</title>
+    <title>Happy Page</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #FFDDC1, #FFABAB, #FFC3A0);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            font-size: 4em;
+            color: #FF5733;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 2em;
+            color: #FF8D1A;
+        }
+        .emoji {
+            font-size: 3em;
+        }
+        .image-container img {
+            width: 200px;
+            margin-top: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        .happy-btn {
+            background-color: #FFD700;
+            color: #fff;
+            padding: 15px 25px;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+        .happy-btn:hover {
+            background-color: #FFA500;
+        }
+    </style>
 </head>
 <body>
-    <p>hihihihi im happy hihihihi</p>
+    <h1>Hihihihi, I'm so Happy! 😊</h1>
+    <p>Hihihihi, life is great! I'm smiling so big right now! 😄</p>
+    <div class="emoji">
+        😃 🥳 😁 🤩
+    </div>
+    <div class="image-container">
+        <img src="https://www.w3schools.com/w3images/smile.jpg" alt="Happy Face">
+    </div>
+    <button class="happy-btn" onclick="alert('You are amazing! Keep smiling! 😄')">Spread the Happiness!</button>
 </body>
 </html>
